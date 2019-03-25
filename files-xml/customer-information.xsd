@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://solucaologica.github.io"
+	xmlns:tns="http://solucaologica.github.io"
+	elementFormDefault="qualified">
+
+	<complexType name="CustomerDetail">
+		<sequence>
+			<element name="id" type="integer" />
+			<element name="name" type="string" />
+			<element name="phone" type="string" />
+			<element name="email" type="string" />
+		</sequence>
+	</complexType>
+
+	<element name="GetCustomerDetailsRequest">
+		<complexType>
+			<sequence>
+				<element name="id" type="integer" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="GetCustomerDetailsResponse">
+		<complexType>
+			<sequence>
+				<element name="CustomerDetail" type="tns:CustomerDetail" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="GetAllCustomersResponse">
+		<complexType>
+			<sequence>
+				<element name="CustomerDetail" type="tns:CustomerDetail" />
+			</sequence>
+		</complexType>
+	</element>
+</schema>

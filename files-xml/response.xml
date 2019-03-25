@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCustomerDetailsResponse xmlns="http://solucaologica.github.io">
+	<CustomerDetail>
+		<id>123<id/>
+		<name>Bob</name>
+		<phone>11986659898</phone>
+		<email>solucaoelogica@gmail.com</email>
+	<CustomerDetail/>
+<GetCustomerDetailsResponse/>

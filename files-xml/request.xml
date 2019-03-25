@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCustomerDetailsRequest
+	xmlns="http://solucaologica.github.io"
+	xsi:xsi:schemaLocation="http://solucaologica.github.io customer-information.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id></id>
+</GetCustomerDetailsRequest>
